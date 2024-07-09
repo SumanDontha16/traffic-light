@@ -1,5 +1,5 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
-import { RootState } from '../store';
+import { RootState } from '../store'
 
 type LightState = 'red' | 'orange' | 'green' | 'yellow';
 interface TrafficLightState {
